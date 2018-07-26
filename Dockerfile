@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine
 
 ADD requirements.txt /code/
 WORKDIR /code
