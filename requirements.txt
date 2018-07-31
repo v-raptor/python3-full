@@ -22,4 +22,3 @@ smart-open
 stripe
 timeout-decorator
 tldextract
-zmq
