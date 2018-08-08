@@ -1,3 +1,4 @@
+bcrypt
 beautifulsoup4
 boto3
 cachetools
@@ -16,10 +17,10 @@ pycpfcnpj
 pyjwt
 python-cuckoo
 pytz
+redis
 requests
 requests-html
 smart-open
 stripe
 timeout-decorator
 tldextract
-bcrypt
