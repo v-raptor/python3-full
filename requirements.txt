@@ -5,6 +5,7 @@ cachetools
 card-validator
 certifi
 cryptography
+dogstatsd-python
 elasticsearch
 flask
 flask-httpauth
