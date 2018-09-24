@@ -11,6 +11,7 @@ flask
 flask-httpauth
 google-api-python-client
 gunicorn
+httplib2
 jinja2
 jira
 mmh3
