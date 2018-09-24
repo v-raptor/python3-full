@@ -9,11 +9,13 @@ dogstatsd-python
 elasticsearch
 flask
 flask-httpauth
+google-api-python-client
 gunicorn
 jinja2
 jira
 mmh3
 mysql-connector
+oauth2client
 pycpfcnpj
 pyjwt
 python-cuckoo
