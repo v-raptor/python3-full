@@ -3,7 +3,9 @@ FROM alpine
 ADD requirements.txt /code/
 WORKDIR /code
 
-RUN apk add --no-cache python3 build-base python3-dev libffi-dev libressl-dev libxml2-dev libxslt-dev py-zmq \
+ENV TZ America/Sao_Paulo
+
+RUN apk add --no-cache tzdata python3 build-base python3-dev libffi-dev libressl-dev libxml2-dev libxslt-dev py-zmq \
     && python3 -m ensurepip \
     && rm -r /usr/lib/python*/ensurepip \
     && pip3 install --upgrade pip setuptools \
