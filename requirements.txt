@@ -28,3 +28,7 @@ smart-open
 stripe
 timeout-decorator
 tldextract
+schedule
+email_validator
+mailchimp3
+sparkpost
