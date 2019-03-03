@@ -5,12 +5,12 @@ WORKDIR /code
 
 ENV TZ America/Sao_Paulo
 
-RUN apk add --no-cache tzdata python3 build-base python3-dev libffi-dev libressl-dev libxml2-dev libxslt-dev py-zmq \
+RUN apk add --upgrade --no-cache tzdata python3 py-lxml py-zmq py-cryptography build-base python3-dev libffi-dev libressl-dev \
     && python3 -m ensurepip \
     && rm -r /usr/lib/python*/ensurepip \
     && pip3 install --upgrade pip setuptools \
     && pip3 install --no-cache-dir -r requirements.txt \
     && rm -r /root/.cache \
-    && apk del build-base python3-dev libffi-dev libressl-dev libxml2-dev libxslt-dev
+    && apk del build-base python3-dev libffi-dev libressl-dev
 
 CMD [ "python3", "app.py" ]
