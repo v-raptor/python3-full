@@ -9,9 +9,7 @@ elasticsearch
 email_validator
 flask
 flask-httpauth
-google-api-python-client
 gunicorn
-httplib2
 inotify
 jinja2
 jira
