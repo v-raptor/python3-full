@@ -23,7 +23,6 @@ pycpfcnpj
 pyjwt
 redis
 requests
-requests-html
 schedule
 sparkpost
 stripe
